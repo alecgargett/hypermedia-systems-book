@@ -110,14 +110,14 @@ const HypermediaSystems = new Book("Hypermedia Systems").with(
     }),
   ),
   new Part("Hypermedia Concepts").with(
-    { url: "/part/hypermedia-concepts/" },
+    { url: "/introduction/" },
     new Introduction().with(compile("ch00-introduction.typ")),
     new Chapter().with(compile("ch01-hypermedia-a-reintroduction.typ")),
     new Chapter().with(compile("ch02-components-of-a-hypermedia-system.typ")),
     new Chapter().with(compile("ch03-a-web-1-0-application.typ")),
   ),
   new Part("Hypermedia-Driven Web Applications With Htmx").with(
-    { url: "/part/htmx/" },
+    { url: "/extending-html-as-hypermedia/" },
     new Chapter().with(compile("ch04-extending-html-as-hypermedia.typ")),
     new Chapter().with(compile("ch05-htmx-patterns.typ")),
     new Chapter().with(compile("ch06-more-htmx-patterns.typ")),
@@ -127,15 +127,15 @@ const HypermediaSystems = new Book("Hypermedia Systems").with(
     new Chapter().with(compile("ch10-json-data-apis.typ")),
   ),
   new Part("Bringing Hypermedia To Mobile").with(
-    { url: "/part/hyperview/" },
-    new Chapter().with(compile("ch11-hyperview-a-mobile-hypermedia.typ")),
+    { url: "/hyperview-a-mobile-hypermedia/" },
+    new Chapter().with(compile("ch11-c.typ")),
     new Chapter().with(
       compile("ch12-building-a-contacts-app-with-hyperview.typ"),
     ),
     new Chapter().with(compile("ch13-extending-the-hyperview-client.typ")),
   ),
   new Part("Conclusion").with(
-    { url: "/part/conclusion/" },
+    { url: "/conclusion/" },
     new Chapter().with(compile("ch14-conclusion.typ")),
   ),
 );
